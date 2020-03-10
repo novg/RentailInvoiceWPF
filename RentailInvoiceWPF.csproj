@@ -16,6 +16,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="RentailInvoice">
+      <HintPath>RentailInvoiceLibrary\RentailInvoice.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
     <Resource Include="folder.png" />
   </ItemGroup>
 
