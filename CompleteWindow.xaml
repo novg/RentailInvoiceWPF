@@ -1,0 +1,16 @@
+﻿<Window x:Class="RentailInvoiceWPF.Complete"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RentailInvoiceWPF"
+        mc:Ignorable="d"
+        Title="Завершено" Height="200" Width="300">
+    <StackPanel>
+        <DockPanel Margin="0,50,0,0" HorizontalAlignment="Center">
+            <Image Source="Assets\tick.png" Width="24"/>
+            <Label x:Name="labelComplete" Content="Отчет сформирован" VerticalAlignment="Center"/>
+        </DockPanel>
+        <Button x:Name="buttonSaveAs" Content="Сохранить" Width="100" Margin="0,30,0,0" Click="buttonSaveAs_Click"/>
+    </StackPanel>
+</Window>
