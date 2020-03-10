@@ -47,6 +47,7 @@ namespace RentailInvoiceWPF
                 DataWriter = dataWriter
             };
             complete.ShowDialog();
+            TextFilePath.Text = "Перетащите каталог сюда";
         }
     }
 }

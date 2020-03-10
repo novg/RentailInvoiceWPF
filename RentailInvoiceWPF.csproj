@@ -21,8 +21,4 @@
     </Reference>
   </ItemGroup>
 
-  <ItemGroup>
-    <Resource Include="folder.png" />
-  </ItemGroup>
-
 </Project>
