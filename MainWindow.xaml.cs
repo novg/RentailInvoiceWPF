@@ -24,5 +24,11 @@ namespace RentailInvoiceWPF
         {
             InitializeComponent();
         }
+
+        private void LabelDrop_Drop(object sender, DragEventArgs e)
+        {
+            var droppedPaths = e.Data.GetData(DataFormats.FileDrop, true) as string[];
+            TextFilePath.Text = droppedPaths[0];
+        }
     }
 }

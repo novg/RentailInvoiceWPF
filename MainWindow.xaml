@@ -6,7 +6,13 @@
         xmlns:local="clr-namespace:RentailInvoiceWPF"
         mc:Ignorable="d"
         Title="RPA DTI Аренда" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+    <DockPanel>
+        <Label x:Name="LabelDrop" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Cursor="ScrollAll"
+               AllowDrop="True" Drop="LabelDrop_Drop" FontSize="14">
+            <DockPanel>
+                <Image Source="Assets\folder.png" Width="24"/>
+                <TextBlock x:Name="TextFilePath" Text="Перетащите каталог сюда" VerticalAlignment="Center" Margin="5,0,0,0" TextWrapping="WrapWithOverflow"/>
+            </DockPanel>
+        </Label>
+    </DockPanel>
 </Window>
